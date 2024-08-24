@@ -15,7 +15,7 @@ function HeadlineItem({ headlines }) {
         </a>
         <p className="mb-3  font-normal text-gray-700 dark:text-gray-400">{description}</p>
         
-        {/* Flex container to push date, author, and button to the bottom */}
+        
         <div className="mt-auto">
           <p className="mt-2 text-sm text-gray-300">By {author || 'Unknown Author'}</p>
           <p className="mt-1 mb-2 text-sm text-gray-400">{new Date(publishedAt).toISOString().split('T')[0]}</p>

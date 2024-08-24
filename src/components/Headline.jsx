@@ -10,7 +10,7 @@ function Headline() {
   useEffect(() => {
     const getHeadlines = async () => {
       setLoading(true);
-      setError(null); // Reset error state before fetching
+      setError(null); 
       try {
         const news = await fetchHeadline();
         setHeadline(news);
